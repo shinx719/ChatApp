@@ -61,8 +61,8 @@ namespace ChatClient.MVVM.ViewModel
 
 		public void SaveMessageToFile(string message)
 		{
-			string filePath = "C:\\Users\\erlan\\source\\chat\\logs.txt";
-			string hashFilePath = "C:\\Users\\erlan\\source\\chat\\hashedLogs.txt";
+			string filePath = "C:\\Users\\erlan\\source\\Chatppp\\logs.txt";
+			string hashFilePath = "C:\\Users\\erlan\\source\\Chatppp\\hashedLogs.txt";
 
 			using (StreamWriter writer = new StreamWriter(filePath, true))
 			{
